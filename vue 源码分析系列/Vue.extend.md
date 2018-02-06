@@ -10,6 +10,7 @@
 
 ### 源码 
 ```
+  // src/core/global-api/extend.js
   Vue.extend = function (extendOptions: Object): Function {
     extendOptions = extendOptions || {}
     const Super = this

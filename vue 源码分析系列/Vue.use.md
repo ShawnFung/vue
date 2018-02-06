@@ -10,7 +10,7 @@
 
 ### 源码
 ```
-// Vue源码文件路径：src/core/global-api/use.js
+// src/core/global-api/use.js
 Vue.use = function (plugin: Function | Object) {
     // 假如插件已经初始化过就不再继续。避免插件重复入侵
     const installedPlugins = (this._installedPlugins || (this._installedPlugins = []))
