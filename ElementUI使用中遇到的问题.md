@@ -1,6 +1,6 @@
-## ElementUI使用中遇到的问题
+# ElementUI使用中遇到的问题
 
-1. Vue 导航组件高亮的问题？   
+## Vue 导航组件高亮的问题？   
 原理：根据 URL 匹配菜单项
 ![菜单项高亮](./my-project/static/images/nav_highlight.png)
 vue + vue-router + elementUI
@@ -16,3 +16,6 @@ data: function(){
     }
 }
 ```
+
+## 项目中没有使用Node，直接从unpkg引用element-ui和vue，这种情况下如何做国际化？
+https://github.com/ElemeFE/element/issues/1909
